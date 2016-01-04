@@ -188,12 +188,6 @@ body {
     margin: 0;
 }
 
-/*.navigation > li {
-    display: block;
-    position: relative;
-    float: right;
-}*/
-
 .navigation > li,
 .navigation > li > a {
 	font-family: 'Brown-Light', sans-serif;
