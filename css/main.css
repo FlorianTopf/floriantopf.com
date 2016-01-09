@@ -272,7 +272,7 @@ body {
 @media (max-width: 600px) {
     .navigation > li,
     .navigation > li > a {
-        font-size: 15px;
+        font-size: 14px;
         padding-top: 25px;
         padding-bottom: 25px;
     }
