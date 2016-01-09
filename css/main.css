@@ -259,13 +259,19 @@ body {
 
 .navigation > li,
 .navigation > li > a {
-	font-family: 'Brown-Light', sans-serif;
-	letter-spacing: 3px;
-	color: #fff;
-	font-size: 18px;
+    font-family: 'Brown-Light', sans-serif;
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navigation > li {
 	padding-top: 35px;
 	padding-bottom: 35px;
-    line-height: 20px;
+}
+
+.navigation > li > a {
     text-decoration: none;
 }
 
@@ -273,10 +279,19 @@ body {
     .navigation > li,
     .navigation > li > a {
         font-size: 14px;
+    }
+
+    .navigation > li {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+}
 
+@media (max-width: 700px) and (orientation: landscape) {
+    .navigation > li {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
 
 .navigation  > li > a:hover,
