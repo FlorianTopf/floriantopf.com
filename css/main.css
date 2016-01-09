@@ -67,85 +67,98 @@ body {
 /* BORDERS
    ------------------------ */
 
-#left-border {
+.border {
+    position: fixed;
+    background-color: #111111;
+    z-index: 9999;
+}
+
+.border-left {
 	height: 100%;
 	width: 9px;
-	position: fixed;
 	left: 0;
-	background: #111111;
-	z-index: 9999;
 }
 
-#right-border {
+.border-right {
 	height: 100%;
 	width: 9px;
-	position: fixed;
 	right: 0;
-	background: #111111;
-	z-index: 9999;	
 }
 
-#top-border {
+.border-top {
 	height: 9px;
 	width: 100%;
-	position: fixed;
 	top: 0;
-	background: #111111;
-	z-index: 9999;
 }
 
-#bottom-border {
-	position: fixed;
-	bottom: 0;
+.border-bottom {
 	height: 9px;
 	width: 100%;
-	background: #111111;
-	z-index: 9999;	
+    bottom: 0;
 }
 
 /* LOGO/TITLE
    ------------------------ */
 
 .landing-logo {
-    overflow: hidden;
-    background: url('../img/logo.png');
-    z-index: 9999;
-    display: block;
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    width: 60px;
-    height: 60px;
-    margin-left: -30px;
-    background-repeat: no-repeat;
+    background: url('../img/logo.png') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 50%;
+    margin-left: -30px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .landing-logo {
         width: 50px;
         height: 50px;
     }
 }
 
-.separator-top {
-    background: url('../img/zigzag.png');
-    background-repeat: no-repeat;
+.separator {
+    background: url('../img/zigzag.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: block;
     position: fixed;
     height: 23px;
     width: 178px;
-    top: 100px;
     left: 50%;
     margin-left: -89px;
 }
 
-@media (max-width: 650px) {
+.separator-top {
+    top: 100px;
+}
+
+.separator-bottom {
+    top: 280px;
+}
+
+@media (max-width: 700px) {
+    .separator {
+        height: 17px;
+        width: 136px;
+        margin-left: -68px;
+    }
+
     .separator-top {
         top: 80px;
+    }
+
+    .separator-bottom {
+        top: 180px;
     }
 }
 
@@ -168,31 +181,13 @@ body {
     line-height: 1.1em;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .landing-title {
         top: 110px;
     }
 
     .landing-title h2 {
         font-size: 30px;
-    }
-}
-
-.separator-bottom {
-    background: url('../img/zigzag.png');
-    background-repeat: no-repeat;
-    display: block;
-    position: fixed;
-    height: 23px;
-    width: 178px;
-    top: 280px;
-    left: 50%;
-    margin-left: -89px;
-}
-
-@media (max-width: 650px) {
-    .separator-bottom {
-        top: 180px;
     }
 }
 
