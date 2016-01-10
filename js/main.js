@@ -12,9 +12,7 @@ $(document).ready(function () {
     setLandingImageHeight();
 
     // resize landing image on window resize
-    $(window).on('resize', function () {
-        setLandingImageHeight()
-    });
+    $(window).on('resize', setLandingImageHeight);
 
     function setLandingImageHeight () {
         var wHeight = $(window).height();
