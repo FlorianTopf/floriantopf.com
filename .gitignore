@@ -1,3 +1,4 @@
 .idea/
-bower_components/
 files/
+.firebase/
+node_modules/

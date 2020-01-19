@@ -1,0 +1,22 @@
+{
+  "name": "floriantopf.com",
+  "version": "1.0.0",
+  "description": "Landing Page for floriantopf.com",
+  "main": "public/index.html",
+  "scripts": {
+    "deploy": "./node_modules/.bin/firebase deploy --project floriantopf-lp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianTopf/floriantopf.com.git"
+  },
+  "author": "floriantopf <florian.topf@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorianTopf/floriantopf.com/issues"
+  },
+  "homepage": "https://github.com/FlorianTopf/floriantopf.com#readme",
+  "devDependencies": {
+    "firebase-tools": "7.12.1"
+  }
+}
