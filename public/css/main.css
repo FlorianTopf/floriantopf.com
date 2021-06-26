@@ -52,7 +52,7 @@ body {
 }
 
 @font-face {
-    font-family:'232MKSDRoundLight-Regular';
+    font-family: '232MKSDRoundLight-Regular';
     src: url('../fonts/232MKSDRoundLight_gdi.eot');
     src: url('../fonts/232MKSDRoundLight_gdi.eot?#iefix') format('embedded-opentype'),
     url('../fonts/232MKSDRoundLight_gdi.woff') format('woff'),
@@ -74,26 +74,26 @@ body {
 }
 
 .border-left {
-	height: 100%;
-	width: 9px;
-	left: 0;
+    height: 100%;
+    width: 9px;
+    left: 0;
 }
 
 .border-right {
-	height: 100%;
-	width: 9px;
-	right: 0;
+    height: 100%;
+    width: 9px;
+    right: 0;
 }
 
 .border-top {
-	height: 9px;
-	width: 100%;
-	top: 0;
+    height: 9px;
+    width: 100%;
+    top: 0;
 }
 
 .border-bottom {
-	height: 9px;
-	width: 100%;
+    height: 9px;
+    width: 100%;
     bottom: 0;
 }
 
@@ -192,18 +192,15 @@ body {
 }
 
 .landing-slide {
-	width: 100%;
-	/* exact value doesn't matter */
-	height: 940px;
-	overflow: hidden;
-	background: url('../img/landing.jpg');	
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    width: 100%;
+    /* exact value doesn't matter */
+    height: 940px;
+    overflow: hidden;
+    background: url('../img/landing.jpg') no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* ==========================================================================
@@ -211,10 +208,10 @@ body {
    ========================================================================== */
 
 .landing-header {
-	width: 100%;
-	background: #111111; 
-	margin-bottom: 0; 
-	z-index: 999;
+    width: 100%;
+    background: #111111;
+    margin-bottom: 0;
+    z-index: 999;
     display: block;
     color: #ffffff;
 }
@@ -267,8 +264,8 @@ body {
 }
 
 .navigation > li {
-	padding-top: 35px;
-	padding-bottom: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .navigation > li > a {
@@ -294,8 +291,8 @@ body {
     }
 }
 
-.navigation  > li > a:hover,
-.navigation  > li > a:focus {
-  	color: #cccccc;
+.navigation > li > a:hover,
+.navigation > li > a:focus {
+    color: #cccccc;
     text-decoration: underline;
 }

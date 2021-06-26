@@ -15,9 +15,9 @@ $(document).ready(function () {
     $(window).on('resize', setLandingImageHeight);
 
     function setLandingImageHeight () {
-        var wHeight = $(window).height();
-        var navHeight = $('.navigation').outerHeight(true);
-        var slideHeight = wHeight - navHeight;
+        const wHeight = $(window).height();
+        const navHeight = $('.navigation').outerHeight(true);
+        const slideHeight = wHeight - navHeight;
         $('.landing-slide').height(slideHeight);
     }
 });
