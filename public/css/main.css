@@ -14,7 +14,7 @@ body {
 .container:after,
 .navigation:after,
 .landing-header:after {
-    content: " ";
+    content: ' ';
     display: table;
 }
 
@@ -31,35 +31,14 @@ body {
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Brown-Light';
-    src: url('../fonts/Brown-Light_gdi.eot');
-    src: url('../fonts/Brown-Light_gdi.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Brown-Light_gdi.woff') format('woff'),
-    url('../fonts/Brown-Light_gdi.ttf') format('truetype'),
-    url('../fonts/Brown-Light_gdi.svg#Brown-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-25CA;
-}
-
-@font-face {
-    font-family: '232MKSDRoundLight-Regular';
-    src: url('../fonts/232MKSDRoundLight_gdi.eot');
-    src: url('../fonts/232MKSDRoundLight_gdi.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/232MKSDRoundLight_gdi.woff') format('woff'),
-    url('../fonts/232MKSDRoundLight_gdi.ttf') format('truetype'),
-    url('../fonts/232MKSDRoundLight_gdi.svg#232MKSDRoundLight-Regular') format('svg');
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-25CA;
+@font-face{ 
+    font-family: 'Fasswald-Regular'; 
+    src: url('../fonts/Fasswald-Regular.woff') format('woff');
 }
 
 .border {
     position: fixed;
-    background-color: #111111;
+    background-color: #000000;
     z-index: 1;
 }
 
@@ -81,106 +60,12 @@ body {
     right: 0;
 }
 
-.landing-logo {
-    background: url('../img/logo.png') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: block;
-    position: fixed;
-    overflow: hidden;
-    z-index: 9999;
-    width: 60px;
-    height: 60px;
-    top: 20px;
-    left: 50%;
-    margin-left: -30px;
-}
-
-@media (max-width: 700px) and (orientation: portrait),
-       (max-width: 900px) and (orientation: landscape) {
-    .landing-logo {
-        width: 50px;
-        height: 50px;
-    }
-}
-
-.separator {
-    background: url('../img/zigzag.png') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: block;
-    position: fixed;
-    height: 23px;
-    width: 178px;
-    left: 50%;
-    margin-left: -89px;
-}
-
-.separator-top {
-    top: 100px;
-}
-
-.separator-bottom {
-    top: 280px;
-}
-
-@media (max-width: 700px) and (orientation: portrait),
-       (max-width: 900px) and (orientation: landscape) {
-    .separator {
-        height: 17px;
-        width: 136px;
-        margin-left: -68px;
-    }
-
-    .separator-top {
-        top: 80px;
-    }
-
-    .separator-bottom {
-        top: 186px;
-    }
-}
-
-.landing-title {
-    display: block;
-    position: fixed;
-    height: 50px;
-    width: 300px;
-    top: 155px;
-    left: 50%;
-    margin-left: -150px;
-}
-
-.landing-title h2 {
-    font-family: '232MKSDRoundLight-Regular', sans-serif;
-    color: #fff;
-    text-align: center;
-    font-size: 48px;
-    margin: 0;
-    line-height: 1.1em;
-}
-
-@media (max-width: 700px) and (orientation: portrait),
-       (max-width: 900px) and (orientation: landscape) {
-    .landing-title {
-        top: 112px;
-    }
-
-    .landing-title h2 {
-        font-size: 30px;
-    }
-}
-
 .landing-slide {
     width: 100%;
     /* exact value doesn't matter */
     height: 940px;
     overflow: hidden;
-    background: url('../img/landing.jpg') no-repeat fixed center center;
+    background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -189,7 +74,7 @@ body {
 
 .landing-header {
     width: 100%;
-    background: #111111;
+    background: #000000;
     margin-bottom: 0;
     z-index: 999;
     display: block;
@@ -219,7 +104,7 @@ body {
 
 .navigation > li,
 .navigation > li > a {
-    font-family: 'Brown-Light', sans-serif;
+    font-family: 'Fasswald-Regular', sans-serif;
     letter-spacing: 3px;
     color: #fff;
     font-size: 18px;
