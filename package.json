@@ -5,7 +5,8 @@
   "main": "public/index.html",
   "scripts": {
     "deploy": "npm run firebase -- deploy --project floriantopf-lp",
-    "firebase": "firebase"
+    "firebase": "firebase",
+    "login": "npm run firebase login"
   },
   "repository": {
     "type": "git",
