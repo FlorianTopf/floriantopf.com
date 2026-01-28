@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/FlorianTopf/floriantopf.com#readme",
   "devDependencies": {
-    "firebase-tools": "14.15.2"
+    "firebase-tools": "15.4.0"
   }
 }
