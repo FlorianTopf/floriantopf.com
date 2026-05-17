@@ -153,6 +153,10 @@ body {
     top: 155px;
     left: 50%;
     margin-left: -150px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .landing-title h2 {
