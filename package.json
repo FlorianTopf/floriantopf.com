@@ -4,6 +4,7 @@
   "description": "Landing Page for floriantopf.com",
   "main": "public/index.html",
   "scripts": {
+    "postinstall": "node scripts/patch-stream-json.js",
     "deploy": "npm run firebase -- deploy --project floriantopf-lp",
     "firebase": "firebase",
     "login": "npm run firebase login"
@@ -19,11 +20,13 @@
   },
   "homepage": "https://github.com/FlorianTopf/floriantopf.com#readme",
   "devDependencies": {
-    "firebase-tools": "^15.25.0"
+    "firebase-tools": "^15.30.2"
   },
   "overrides": {
     "uuid": ">=11.1.1",
     "@opentelemetry/core": ">=2.8.0",
-    "brace-expansion": ">=5.0.8"
+    "brace-expansion": ">=5.0.8",
+    "csv-parse": ">=7.0.2",
+    "stream-json": ">=3.6.0"
   }
 }
